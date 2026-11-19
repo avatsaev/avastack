@@ -204,3 +204,4 @@ h2 { font-size: clamp(28px, 3.6vw, 42px); font-weight: 700; letter-spacing: -.02
 .footer-links { display: flex; gap: 24px; flex-wrap: wrap; font: 400 13px var(--mono); }
 .footer-links a { color: var(--night-muted); }
 .footer-links a:hover { color: #fff; }
+.footer-copy { color: #6b7385; }
