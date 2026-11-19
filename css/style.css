@@ -105,7 +105,7 @@ h2 { font-size: clamp(28px, 3.6vw, 42px); font-weight: 700; letter-spacing: -.02
 .page-home .hero-text { gap: 28px; }
 
 /* Illustrations: drawn at a fixed 520px width, scaled by js/main.js */
-.illo { width: 100%; max-width: 520px; justify-self: end; aspect-ratio: 1 / 1; overflow: hidden; }
+.illo { width: 100%; max-width: 520px; justify-self: center; aspect-ratio: 1 / 1; overflow: hidden; }
 .illo-wide { aspect-ratio: 520 / 300; }
 .illo-stage { width: 520px; height: 520px; position: relative; overflow: hidden; transform-origin: 0 0; background: var(--paper); }
 .illo-wide .illo-stage { height: 300px; }
