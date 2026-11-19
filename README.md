@@ -4,7 +4,7 @@ Static site, no build step. Open `index.html` or upload the folder to any static
 
 ```
 index.html        → redirects to fr/ or en/ based on browser language
-fr/, en/          → one HTML file per page (index, services, about, contact)
+fr/, en/          → one HTML file per page (index, mission, services, about, contact)
 css/style.css     → all styles; colours and fonts are variables at the top
 js/main.js        → scales the two illustrations on small screens
 assets/           → logo
