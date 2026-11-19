@@ -67,6 +67,16 @@ h1, h2, h3, p { margin: 0; }
 .lang-switch a { color: #8a92a3; padding: 4px 0; border-bottom: 2px solid transparent; }
 .lang-switch a:hover { color: #fff; }
 .lang-switch a[aria-current="true"] { color: #fff; border-bottom-color: var(--night-accent); }
+@media (max-width: 720px) {
+  .header-inner { padding-top: 10px; padding-bottom: 8px; gap: 6px 16px; }
+  .header-right { display: contents; }
+  .brand { gap: 10px; }
+  .brand img { width: 28px; height: 28px; }
+  .brand span { font-size: 17px; }
+  .lang-switch { margin-left: auto; padding-left: 0; border-left: 0; }
+  .main-nav { order: 3; width: 100%; flex-wrap: nowrap; justify-content: space-between; gap: 12px; overflow-x: auto; scrollbar-width: none; font-size: 14px; }
+  .main-nav a { white-space: nowrap; }
+}
 
 /* Type */
 .eyebrow { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--blue); font-weight: 600; }
@@ -101,7 +111,7 @@ h2 { font-size: clamp(28px, 3.6vw, 42px); font-weight: 700; letter-spacing: -.02
 .illo-wide .illo-stage { height: 300px; }
 
 /* Home illustration: stacked layers */
-.layers { position: absolute; left: 110px; top: 250px; width: 200px; height: 200px; transform: rotateX(55deg) rotateZ(-45deg); transform-style: preserve-3d; }
+.layers { position: absolute; left: 82px; top: 258px; width: 200px; height: 200px; transform: rotateX(55deg) rotateZ(-45deg); transform-style: preserve-3d; }
 .layer { position: absolute; inset: 0; border-radius: 10px; border: 1px solid var(--paper); }
 .layer-1 { background: var(--night); border: 0; }
 .layer-2 { background: #1a2c55; transform: translateZ(60px); }
@@ -110,7 +120,7 @@ h2 { font-size: clamp(28px, 3.6vw, 42px); font-weight: 700; letter-spacing: -.02
 .layer-5 { background: var(--blue-bright); transform: translateZ(240px); display: flex; align-items: center; justify-content: center; }
 .layer-mark { width: 96px; height: 96px; color: var(--paper); transform: rotate(45deg); display: block; }
 .layer-mark svg { width: 100%; height: 100%; display: block; }
-.layer-labels { list-style: none; margin: 0; padding: 0; position: absolute; left: 370px; top: 0; bottom: 0; width: 150px; }
+.layer-labels { list-style: none; margin: 0; padding: 0; position: absolute; left: 342px; top: 8px; bottom: 0; width: 150px; }
 .layer-labels li { position: absolute; display: flex; align-items: center; gap: 8px; font: 500 11px var(--mono); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
 .layer-labels li::before { content: ""; width: 18px; height: 1px; background: #8a92a3; }
 .layer-labels .icon { width: 16px; height: 16px; color: var(--blue); }
